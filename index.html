@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushree | Student & Coder</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: rgba(15, 23, 42, 0.9);
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .profile {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #818cf8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 55px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 0 30px rgba(56, 189, 248, 0.4);
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            color: #cbd5e1;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 8px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        .secondary {
+            border: 2px solid #38bdf8;
+            color: #38bdf8;
+        }
+
+        .buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.25);
+        }
+
+        section {
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #38bdf8;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(30, 41, 59, 0.8);
+            padding: 30px;
+            width: 280px;
+            border-radius: 15px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            color: #f8fafc;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #0f172a;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Anushree.</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+
+                <div class="profile">A</div>
+
+                <h1>Hi, I'm <span>Anushree</span> 👋</h1>
+
+                <p class="subtitle">
+                    B.E. 2nd Year Student | Coder | Tech Enthusiast
+                </p>
+
+                <p class="description">
+                    I'm Anushree, also known by my pet name <strong>Slevi</strong>.
+                    I'm a B.E. 2nd year student at JITD, Davanagere.
+                    I have a passion for coding and enjoy exploring and learning
+                    new technologies.
+                </p>
+
+                <div class="buttons">
+                    <a href="#about" class="primary">Know More</a>
+                    <a href="#skills" class="secondary">My Interests</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🎓 Education</h3>
+                    <p>
+                        Currently pursuing my B.E. degree as a 2nd year student
+                        at JITD, Davanagere.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>💻 Passion</h3>
+                    <p>
+                        I love coding, solving problems, building projects,
+                        and turning ideas into working applications.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🚀 Learning</h3>
+                    <p>
+                        I enjoy learning new technologies and continuously
+                        improving my technical skills.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Interests</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>💡 Coding</h3>
+                    <p>
+                        Exploring programming languages, algorithms,
+                        and software development.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🌐 Web Development</h3>
+                    <p>
+                        Creating modern and responsive websites using
+                        HTML, CSS, JavaScript, and other technologies.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🔬 New Technology</h3>
+                    <p>
+                        Discovering new tools, frameworks, and technologies
+                        that can make development easier and more exciting.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Anushree (Slevi) | Built with ❤️ and Code</p>
+    </footer>
+
+</body>
+</html>
